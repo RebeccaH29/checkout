@@ -3,15 +3,12 @@ import './App.css';
 import Products from './pages/ProductsPage';
 import Cart from './pages/CartPage';
 
-import { Route, Switch, Link } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
 import NavBar from './components/Navbar';
 
 class App extends Component {
-  //constructor(props) {
-    //super(props);
-
-  //}
+  
 render() {
   return <>
   <NavBar></NavBar>
