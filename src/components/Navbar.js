@@ -44,6 +44,7 @@ const NavWrapper = styled.nav`
   }
   .navbar-link {
       padding-left: 1.5rem;
+      padding-right: 1rem;
   }
   .nav-icon: color: #0e3753;
   
