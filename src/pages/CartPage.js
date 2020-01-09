@@ -7,8 +7,7 @@ import { Link } from 'react-router-dom';
 export default function CartPage() {
     return <ProductConsumer>
         {value => {
-            //const {cartOpen, cart, cartSubTotal, addToCart, removeItem, increment, id, removeFromCart} = value;
-            const {cartOpen, cart, cartSubTotal, cartTotal, addToCart, removeItem, removeFromCart, cartTaxTotal} = value;
+            const {cartOpen, cart, cartTotal, addToCart, removeItem, removeFromCart, cartTaxTotal} = value;
             return <CartWrapper show={cartOpen}>
             <div className="row mt-5 text-center">
                 <div className="productList">
